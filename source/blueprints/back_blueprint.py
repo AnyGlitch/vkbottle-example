@@ -6,5 +6,5 @@ bp = Blueprint("Back to keyboards")
 
 
 @bp.on.private_message(payload={"command": "back_to_home"})
-async def back_to_home_handler(message: Message) -> dict:
+async def back_to_home_handler(_: Message) -> dict:
     return {"message": "Return to home page.", "keyboard": HOME_KEYBOARD}
