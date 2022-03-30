@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "vkbottle-example"
-version = "0.1.0"
+version = "0.1.1"
 description = "Getting started with vkbottle"
 authors = ["AnyGlitch <WhyGlitches@gmail.com>"]
 keywords = [
