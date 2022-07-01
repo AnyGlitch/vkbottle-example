@@ -40,9 +40,8 @@ ignore_missing_imports = true
 line-length = 80
 
 [tool.isort]
+profile = "black"
 line_length = 80
-multi_line_output = 3
-include_trailing_comma = true
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
