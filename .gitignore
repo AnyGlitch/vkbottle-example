@@ -128,5 +128,5 @@ cython_debug/
 
 # SQLite
 *.db
-*-shm
-*-wal
+*.db-shm
+*.db-wal
