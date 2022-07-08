@@ -17,7 +17,7 @@ python = "^3.10.0"
 vkbottle = "^4.2.1"
 aerich = "^0.6.2"
 tortoise-orm = "^0.19.0"
-asyncpg = "^0.25.0"
+asyncpg = "^0.26.0"
 python-decouple = "^3.6.0"
 
 [tool.poetry.dev-dependencies]
